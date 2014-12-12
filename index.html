@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cloudstitch BMI Calculator</title>
+    <script src="http://cloudstitch.io/release/cloudstitch-0.9.11.js" app="alandipert/bmi"></script>
+    <link type="cloudstitch/gsheet" href="http://cloudstitch.io/alandipert/bmi/datasource/bmi" />
+    <style type="text/css">
+      li { padding: 0.3em; }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>
+        <label>Weight in pounds:</label> <input connect="A1"/>
+      </li>
+      <li>
+        <label>Height in inches:</label> <input connect="A2"/>
+      </li>
+      <li>
+        <label><strong>Height in inches:<strong></label> <input disabled connect="B1"/>
+      </li>
+    </ul>
+  </body>
+</html>
